@@ -37,6 +37,11 @@ nav a:hover {
     border: 1px solid #125ab9;
     position: relative;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -61,3 +66,4 @@ footer {
     padding: 10px 20px;
 
 }
+
